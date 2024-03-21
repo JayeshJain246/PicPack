@@ -7,7 +7,7 @@ PicPack is a simple web application that allows users to download bulk images fr
 - **Bulk Image Download**: Users can specify a celebrity name, the number of images they want to download, and the file type (PNG, JPG, or JPEG).
 - **Zip Download**: The downloaded images are zipped into a single file for convenient download.
 - **Simple UI**: The web interface is user-friendly and straightforward, making it easy for users to interact with the application.
-- **Responsive Design**: The application is designed to work seamlessly on both desktop and mobile devices.
+- **Responsive Design**: The application is designed to work seamlessly.
 
 ## Technologies Used
 
@@ -38,6 +38,10 @@ PicPack is a simple web application that allows users to download bulk images fr
     ```
 
 4. Open a web browser and navigate to `http://localhost:5000` to access the PicPack application.
+
+## Demo
+
+https://github.com/JayeshJain246/PicPack/assets/77563599/1eed03b1-c866-4973-b5d6-0e928cea09d6
 
 ## Usage
 
