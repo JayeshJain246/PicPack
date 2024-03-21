@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicPack</title>
+    <link rel="stylesheet" href="static\styles.css"> 
+</head>
+<body>
+    <!-- <h1>PicPack: Simple Bulk Image Zipper</h1> -->
+    <form action="/download" method="post" id="downloadForm" onsubmit="showAlert()">
+        <h1>PicPack: Bulk Image Zipper📁</h1>
+        <label for="celeb_name">Which specific Images are you seeking for?</label>
+        <input type="text" id="celeb_name" name="celeb_name" required>
+        <label for="no_of_photos">Enter Number of Images</label>
+        <input type="number" id="no_of_photos" name="no_of_photos" required>
+        <label for="file_type">Choose File Type</label>
+        <select id="file_type" name="file_type">
+            <option value="png">PNG</option>
+            <option value="jpg">JPG</option>
+            <option value="jpeg">JPEG</option>
+        </select>
+        <button type="submit" id="downloadBtn">Download Images🔜</button>
+    </form>
+    <script>
+        function showAlert() {
+            alert("Please wait... Cause good things take time!!!");
+        }
+    </script>
+</body>
+</html>
+

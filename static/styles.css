@@ -1,0 +1,67 @@
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 50px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-image: url('background.jpeg'); /* Add your background image URL */
+    background-size: cover;
+    background-position: center;
+    color: #000000; /* Set text color to white */
+    font-family: Arial, sans-serif; /* Specify font family */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #0c5082;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    margin-top: 7%;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+input, button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
