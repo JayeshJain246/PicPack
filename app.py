@@ -226,5 +226,5 @@ def download():
         zip_filename = image_scrapper(celeb_name, no_of_photos, file_type)
         return send_file(zip_filename, as_attachment=True)
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=False)
